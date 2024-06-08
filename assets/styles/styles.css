@@ -1,65 +1,65 @@
 @charset "UTF-8";
 
 html {
-    --color01: #80da27;
-    --color02: #003919;
-    --color03: #d9ebd4;
-    --color04: #fff;
-    --color05: #000;
+    --color01: #80da27;
+    --color02: #003919;
+    --color03: #d9ebd4;
+    --color04: #fff;
+    --color05: #000;
 }
 
 ::selection {
-    background: var(--color01);
-    color: var(--color02);
+    background: var(--color01);
+    color: var(--color02);
 }
 
 body {
-    background-color: var(--color02);
-    min-height: unset;
-    max-width: 1400px;
-    margin: auto;
+    background-color: var(--color02);
+    min-height: unset;
+    max-width: 1400px;
+    margin: auto;
 }
 
 main {
-    margin: 3%;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    min-height: 60vh;
+    margin: 3%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 60vh;
 }
 
 h1 {
-    width: 65%;
-    margin: 0 auto;
+    width: 65%;
+    margin: 0 auto;
 }
 
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: var(--color03);
-    text-align: center;
-    margin-top: 3rem;
-    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color03);
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1.1rem;
 }
 
 svg {
-    fill: var(--color03);
-    stroke: var(--color03);
+    fill: var(--color03);
+    stroke: var(--color03);
 }
 
 @media screen and (min-width: 600px) {
-    h2 {
-        font-size: 1.4rem;
-    }
+    h2 {
+        font-size: 1.4rem;
+    }
 }
-    
+    
 @media screen and (min-width: 810px) {
-    h2 {
-        font-size: 1.7rem;
-    }
+    h2 {
+        font-size: 1.7rem;
+    }
 }
 
 @media screen and (min-width: 1200px) {
-    h2 {
-        font-size: 2rem;
-    }
+    h2 {
+        font-size: 2rem;
+    }
 }
